@@ -1,12 +1,7 @@
 {
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"GitHub.copilot",
-	      			"ms-python.python",
-	      			"ms-toolsai.jupyter",
-				"GrapeCity.gc-excelviewer"
-			]
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+			"installJupyterlab": true
 		}
 	}
 }
